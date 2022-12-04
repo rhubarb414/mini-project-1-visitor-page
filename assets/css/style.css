@@ -1,5 +1,7 @@
 * {
   font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 /* three colors */
@@ -25,15 +27,23 @@ footer {
 h1 {
   position: relative;
   padding-top: 100px;
-  text-align: center;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .page-name {
   display: inline;
   position: absolute;
-  top: -10px;
+  top: 10px;
   font-weight: bold;
   font-size: 1.5em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.text-center {
+  text-align: center;
 }
 
 .hero-image {
@@ -51,4 +61,12 @@ h1 {
   width: 750px;
   margin-left: auto;
   margin-right: auto;
+}
+
+#sign-up {
+  padding-top: 25px;
+}
+
+li {
+  list-style-type: none;
 }

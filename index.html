@@ -8,17 +8,17 @@
     <title>Trip to the Sun – Waitlist</title>
   </head>
   <body>
-    <header>
+    <header id="header">
       <p class="page-name">Trip to the Sun – Waitlist</p>
       <nav>
-        <a href="header">Back to Top</a>
-        <a href="body">Main</a>
-        <a href="contact">Sign Up</a>
+        <a href="#">Home</a>
+        <a href="#main">Back to Top</a>
+        <a href="#sign-up">Sign Up</a>
       </nav>
     </header>
 
-    <main>
-      <h1>A Place To Get Away From It All</h1>
+    <main id="main">
+      <h1 class="text-center">A Place To Get Away From It All</h1>
       <!-- with two heading elements -->
       <img
         class="hero-image"
@@ -35,8 +35,22 @@
         </p>
       </section>
 
-      <section class="contact>" <!-- contact form -->
-        <!-- name input  -->
+      <section id="sign-up">
+        <!-- contact form -->
+        <h2 class="text-center">Sign Up</h2>
+        <form class="text-center">
+          <ul>
+            <li>
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="user-name" />
+            </li>
+            <li>
+              <label>Email:</label>
+              <input type="text" id="email" name="user-email" />
+            </li>
+          </ul>
+          <button type="submit">Join Waitlist</button>
+        </form>
         <!-- email input -->
         <!-- send button -->
       </section>
